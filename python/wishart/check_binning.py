@@ -13,8 +13,6 @@ binnings (run_mcmc_*.py --binning dl20 | dl30 | eqmode):
      Galactic cuts and the regions;
   2. bin-to-bin fit: inverse-variance weighted means of beta_s, beta_d and rho
      over the bandpowers, compared in units of the error of the baseline mean.
-
-The refits with the band-averaged model are in check_bandaveraged_model.py.
 """
 
 import os

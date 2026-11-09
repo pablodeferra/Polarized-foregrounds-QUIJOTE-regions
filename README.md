@@ -83,8 +83,7 @@ done in the repository are marked *(done)*.
    three binnings at once.
 4. **Wishart fits** (`wishart/`): `run_mcmc_power_law.py --binning dl20` and
    `run_mcmc_bin_to_bin.py --binning dl20`. With the same scripts for `dl30` and
-   `eqmode`, `check_binning.py` and `check_bandaveraged_model.py` give the binning
-   tests of Sect. 3.2.
+   `eqmode`, `check_binning.py` gives the binning tests of Sect. 3.2.
 5. **Gaussian likelihood** (`gaussian/`): `run_simulations.py noise` and
    `run_simulations.py skyplusnoise`, 100 realizations per mask, which is the
    expensive step. They can be split into pieces (`--first 1 --last 50`,
@@ -109,7 +108,7 @@ simulations instead, and write to `results/wishart/` and `results/gaussian/`.
 |---|---|
 | Sect. 2.4, noise estimates | `inputs/make_hmdm.py`, `gaussian/run_simulations.py` |
 | Sect. 3.1, sky masks | `make_masks_galcut.py`, `make_masks_regions.py` |
-| Sect. 3.2, power spectra and binning | `compute_spectra.py`, `wishart/check_binning.py`, `wishart/check_bandaveraged_model.py` |
+| Sect. 3.2, power spectra and binning | `compute_spectra.py`, `wishart/check_binning.py` |
 | Sect. 3.3, foreground model and colour corrections | `functions.py`, `inputs/make_cc_polynoms.py` |
 | Sect. 3.4, data model and Wishart likelihood | `wishart/wishart_likelihood.py` |
 | Sect. 3.5, 4.1 and 4.2, parameter inference and results | `wishart/run_mcmc_power_law.py`, `wishart/run_mcmc_bin_to_bin.py` |
@@ -123,3 +122,10 @@ the paper were sampled before the seeds were fixed, and a rerun agrees with them
 within the Monte Carlo noise. The spectra agree with those of the paper to about
 10⁻¹² (relative), because the spherical-harmonic transforms are not
 bit-reproducible across machines and thread counts.
+
+## License
+
+The code and the masks are released under the MIT License (see `LICENSE`). The
+beam transfer functions, the CMB spectrum and the colour-correction tables in
+`data/` come from the Planck Legacy Archive, LAMBDA, the QUIJOTE-MFI DR1 and the
+fastcc code, and remain under the terms of their providers.

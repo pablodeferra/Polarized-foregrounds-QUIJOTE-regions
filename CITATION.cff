@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this code or the masks, please cite them as below."
+title: "Polarized foregrounds in regions of the QUIJOTE-MFI wide survey: analysis code and masks"
+authors:
+  - family-names: "de Ferra"
+    given-names: "Pablo"
+    affiliation: "Departamento de Astrofísica, Universidad de La Laguna"
+license: MIT
+repository-code: "https://github.com/pablodeferra/Polarized-foregrounds-QUIJOTE-regions"
+abstract: >-
+  Analysis code and sky masks of the paper "Spatial variations of polarized
+  synchrotron and dust parameters from power-spectrum analysis". EE and BB
+  auto- and cross-spectra of QUIJOTE-MFI, WMAP and Planck PR4 maps are measured
+  with NaMaster in three Galactic cuts and four regions of the QUIJOTE-MFI wide
+  survey, and a synchrotron and thermal dust model is fitted to them with a
+  Wishart likelihood.
+keywords:
+  - cosmic microwave background
+  - polarized foregrounds
+  - synchrotron
+  - thermal dust
+  - QUIJOTE
+  - power spectrum
