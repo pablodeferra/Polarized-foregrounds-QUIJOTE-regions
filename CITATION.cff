@@ -6,6 +6,7 @@ authors:
     given-names: "Pablo"
     affiliation: "Departamento de Astrofísica, Universidad de La Laguna"
 license: MIT
+doi: "10.5281/zenodo.24091108"
 repository-code: "https://github.com/pablodeferra/Polarized-foregrounds-QUIJOTE-regions"
 abstract: >-
   Analysis code and sky masks of the paper "Spatial variations of polarized

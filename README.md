@@ -1,5 +1,7 @@
 # Polarized foregrounds in regions of the QUIJOTE-MFI wide survey
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24091108.svg)](https://doi.org/10.5281/zenodo.24091108)
+
 Analysis code of the paper *Spatial variations of polarized synchrotron and
 dust parameters from power-spectrum analysis* (de Ferra et al., in preparation).
 
@@ -122,6 +124,11 @@ the paper were sampled before the seeds were fixed, and a rerun agrees with them
 within the Monte Carlo noise. The spectra agree with those of the paper to about
 10⁻¹² (relative), because the spherical-harmonic transforms are not
 bit-reproducible across machines and thread counts.
+
+## Citation
+
+If you use this code or the masks, please cite the Zenodo archive,
+https://doi.org/10.5281/zenodo.24091108, which always points to the latest version.
 
 ## License
 
